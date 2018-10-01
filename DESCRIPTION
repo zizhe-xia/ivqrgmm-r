@@ -1,0 +1,10 @@
+Package: ivqrgmm
+Title: Instrumental Variable Quantile Regression by GMM Estimator
+Version: 0.0.0.9000
+Authors@R: person("Zizhe", "Xia", email = "xiazizhejordan@gmail.com", role = c("aut", "cre"))
+Description: This is a package for Instrumental Variable Quantile Regression (IVQR) using Generalized Methods of Moments (GMM) estimation. It is based on the paper: Chen, Le-Yu and Lee, Sokbae (September 2017), "Exact computation of GMM estimators for instrumental variable quantile regression models". The paper has been published at Journal of Applied Econometrics, available at https://onlinelibrary.wiley.com/doi/full/10.1002/jae.2619. The R codes are based on the MATLAB implementation available at https://github.com/LeyuChen/IVQR-GMM-computation-codes.
+Depends: R (>= 3.5.1)
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
