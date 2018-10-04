@@ -13,3 +13,8 @@ Both the R function named IVQR_GMM can be used to calculate the GMM estimator fo
 There is also an empirical application of the functions on the New York Fulton fish market data to test the functions. The data is collected by Kathryn Graddy available at http://people.brandeis.edu/~kgraddy/datasets/fish.out. It consists of 111 observation on the price and quantity of whiting transactions everyday. The dependent variable Y is the logarithm of total amount of whitings sold each day. The endogenous explanatory variable D is the logarithm of the average daily price. The exogenous explanatory variables are the day indicators (Monday, Tuesday, Wednesday and Thursday). The instrumental variables are weather indicators (Stormy and Mixed). The application codes are also appended in the files.
 
 There is also a Python version of the codes: https://github.com/jordanxzz/IVQR-GMM-Python-codes.
+
+## Download (require the devtools package)
+```
+install_github("jordanxzz/ivqrgmm-r")
+```
